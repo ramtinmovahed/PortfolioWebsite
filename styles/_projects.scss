@@ -10,7 +10,16 @@
 	}
 }
 
-.travelly,
-.elena {
+.project-container {
 	flex: 1 1 40rem;
+}
+
+.img-round {
+	border-radius: 30px;
+	max-height: 486px;
+	max-width: 750px;
+	object-fit: cover;
+	&:last-child {
+		margin-bottom: 6rem;
+	}
 }
